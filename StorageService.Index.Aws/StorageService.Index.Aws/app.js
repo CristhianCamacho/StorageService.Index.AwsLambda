@@ -7,7 +7,6 @@ exports.handler = function (event, context) {
     }
     else {
         console.log('No event object');
-
     }
 
     context.done(null, 'Hello World');  // SUCCESS with message
